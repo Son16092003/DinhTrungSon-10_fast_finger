@@ -1,0 +1,165 @@
+body{
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    width: 500px;
+    height: 650px;
+    background-color: #d2dbec;
+    box-shadow: 0 8px 8px 0;
+    border-radius: 12px;    
+}
+
+#form-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#user-manual{
+    text-align: center;
+    color: rgb(252, 76, 79);
+    font-size: 25px;
+}
+
+.option-line{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 85px;
+}
+
+#btn-play{
+    margin-left: 210px;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    border-radius: 12px;   
+}
+#btn-play:hover{
+    background-color:grey;
+}
+
+.input-word input{
+    width: 335px;
+    height: 40px;
+    box-shadow: 0px 8px 16px 0px;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: #d2dbec;
+    margin-left: 75px;
+}
+
+#result{
+    padding-left: 20px;
+    color:rgb(252, 76, 79);
+    text-align: center;
+}
+
+#countdown{
+    padding-left: 20px;
+    color:blue; 
+    text-align: center;
+}
+
+
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+}
+  
+.row {
+    list-style: none;
+    display: flex;
+}
+  
+li {
+    height: 3em;
+    width: 3em;
+    color: rgba(0,0,0,0.7);
+    border-radius: 0.4em;
+    line-height: 3em;
+    letter-spacing: 1px;
+    margin: 0.4em;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1em;
+}
+  
+#tab {
+    width: 5em;
+}
+  
+#caps {
+    width: 6em;
+}
+  
+#left-shift {
+    width: 8em;
+}
+  
+#enter {
+    width: 6em;
+}
+  
+#right-shift {
+    width: 8em;
+}
+  
+#back {
+    width: 5em;
+}
+  
+.pinky { 
+    background-color: crimson;
+    border: 2px solid crimson;
+}
+.pinky.selected {
+    color: crimson;
+}
+  
+.ring { 
+    background-color: coral;
+    border: 2px solid coral;
+}
+.ring.selected {
+    color: coral;
+}
+  
+.middle { 
+    background-color: darkorange;
+    border: 2px solid darkorange;
+}
+.middle.selected {
+    color: darkorange;
+}
+  
+.pointer1st { 
+    background-color: gold;
+    border: 2px solid gold;
+}
+.pointer1st.selected {
+    color: gold;
+}
+  
+.pointer2nd { 
+    background-color: khaki;
+    border: 2px solid khaki;
+}
+.pointer2nd.selected {
+    color: khaki;
+}
+  
+
+
+
