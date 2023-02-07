@@ -1,10 +1,14 @@
+
 body{
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
 }
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: white; 
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,16 +25,17 @@ body{
 
 #form-title{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 #user-manual{
     text-align: center;
     color: rgb(252, 76, 79);
     font-size: 25px;
+    margin-bottom: 80px;
 }
 
-.option-line{
+#randomWord{
     text-align: center;
     color: blue;
     font-size: 20px;
@@ -121,7 +126,7 @@ li {
 }
   
 .pinky { 
-    background-color: crimson;
+    background-color: rgb(239, 73, 106);
     border: 2px solid crimson;
 }
 .pinky.selected {

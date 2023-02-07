@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <title>typing practice interface</title>
     <link rel="stylesheet" href="./style.css">
-    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&family=Roboto+Mono:ital,wght@1,700&display=swap');
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="box">
             <div id="form-title">
-                <h1>Exercise your 10 fingers</h1>
+                <h1>My 10 fast fingers</h1>
             </div>
             
             <div id="user-manual"> 
                 <p>Enter from below: </p>
             </div>
+
+            <p id="randomWord">ABC</p>
             
-            <div class="option-line">
-                <h3>title</h3>
+            <div id="random-word">
+                
             </div>
 
             <div class="random">
@@ -27,8 +31,8 @@
             
             <button id="btn-play">PLAY</button>
     
-            <div class="input-word" id="input">
-                <input type="input" placeholder=" Please enter the word">
+            <div class="input-word">
+                <input id="input-text" type="input" placeholder=" Please enter the word">
             </div>
             
             <div>
@@ -39,7 +43,7 @@
         
 
         
-        <div class="keyboard">
+        <div id="keyboard">
             <ul class="row row-0">
               <li class="pinky" id="esc">ESC</li>
               <li class="pinky" id="1">1</li>
